@@ -1,0 +1,87 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+
+h1{
+	color: hsl(234, 12%, 34%);
+	text-align: center;
+	margin: 0px;
+	padding: 0;
+}
+
+.sub{
+	font-weight: 200;
+}
+
+.main{
+	font-weight: 600;
+	text-align: center;
+}
+
+header{
+	text-align: center;
+	padding: 60px 0;
+}
+
+h2{
+	margin: 15px 0;
+	font-weight: 400;
+	color: hsl(229, 6%, 66%); 
+	font-size: 15px;
+}
+
+
+main{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card{
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
+	border-radius: 3px;
+	text-align: left;
+	width: 25vmax;
+	margin:20px;
+}
+
+.card-1{border-top:solid 4px hsl(0, 78%, 62%);}
+.card-2{border-top:solid 4px hsl(180, 62%, 55%);}
+.card-3{border-top:solid 4px hsl(212, 86%, 64%);}
+.card-4{border-top:solid 4px hsl(34, 97%, 64%);}
+
+.card h1 {
+	text-align: left;
+}
+
+.container{
+	padding: 30px;
+}
+
+.container p{
+	color: hsl(229, 6%, 66%); 
+	font-size: 16px;
+}
+
+.card-icon {
+	text-align: right;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+    main {
+        display: block;
+    }
+
+    .card{
+    	width: 300px;
+    }
+}
